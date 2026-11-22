@@ -1,0 +1,7 @@
+[project]
+name = "household-fpa"
+version = "0.1.0"
+description = "Personal FP&A: household consolidation, accrual P&L, budget vs actual and 13-week cash forecast"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

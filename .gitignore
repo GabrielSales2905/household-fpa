@@ -1,0 +1,32 @@
+# --- Real data: NEVER commit (bank statements, card bills, personal info) ---
+data/
+*.ofx
+*.qfx
+*.xlsx
+*.xls
+*.pdf
+
+# --- Local databases (DuckDB) ---
+*.duckdb
+*.duckdb.wal
+
+# --- Secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# --- dbt build artifacts ---
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+
+# --- Editor / OS ---
+.vscode/
+Thumbs.db
+desktop.ini
